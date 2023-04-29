@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <h1>Builtin Filters</h1>
+        <h2>{{data}}</h2>
+        <h2>{{data|upper}}</h2>
+        <h2>{{data|lower}}</h2>
+        <h2>{{data|capfirst}}</h2>
+        <h2>{{data|title}}</h2>
+        
+        <h2>{{data|length}}</h2>
+        <h2>{{data|truncatewords:3}}</h2>
+        <h2>{{data|truncatechars:6}}</h2>
+        <h2>{{data|slice:2}}</h2>
+
+        <h2>{{c|add:'12'}}</h2>
+        <h2>"{{data|center:'10'}}"</h2>
+        <h2>{{data|cut:' '}}</h2>
+
+
+
+        <h2>{{dt}}</h2>
+        <h2>{{dt|date:'F'}}</h2>
+        <h2>{{dt|date:'D'}}</h2>
+        <h2>{{dt|date:'Y'}}</h2>
+        <h2>{{dt|date:'F Y D'}}</h2>
+        <h2>{{dt| date:"D d M Y" }}</h2>
+
+
+        <h2>I have {{c}} dog{{c|pluralize}}</h2>
+        <h2>This {{c}} mango{{c|pluralize:'es'}} {{c|pluralize:'is,are'}} mine</h2>
+    </center>
+</body>
+</html>
